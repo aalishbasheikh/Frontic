@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        myfont: ["Great Vibes","cursive"]
+        myfont: ["Ephesis", "cursive"]
       }
     },
   },
