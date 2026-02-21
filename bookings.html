@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- logo in title -->
+    <link
+      rel="icon"
+      href="https://www.freepnglogos.com/uploads/hotel-logo-png/download-building-hotel-clipart-png-33.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!-- ICON LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- FONT LINK -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&amp;family=Dynalight&amp;family=Ephesis&amp;family=Fleur+De+Leah&amp;family=Ojuju:wght@200..800&amp;family=Parisienne&amp;family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&amp;family=Style+Script&amp;family=Tangerine:wght@400;700&amp;family=Yuji+Mai&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontic-Bookings</title>
+  </head>
+  <body class="overflow-x-hidden" cz-shortcut-listen="true">
+    <main
+      class="bg-[linear-gradient(to_bottom,rgba(22,22,22,0),rgba(0,0,0,0.725)),url('/assets/198495f4dfbd7ef8baa846f9eca37146.jpg')] bg-no-repeat bg-cover bg-center w-[100vw] h-screen bg-fixed"
+    >
+      <nav>
+        <div
+          class="navbar flex flex-col justify-center content-center mx-auto md:justify-around md:flex-row md:w-[90%]"
+        >
+          <div class="flex justify-center content-center logo mt-2">
+            <img
+              class="w-16 h-16"
+              src="https://www.freepnglogos.com/uploads/hotel-logo-png/download-building-hotel-clipart-png-33.png"
+              alt=""
+            />
+          </div>
+
+          <ul
+            class="flex justify-center content-center space-x-6 mt-5 text-white h-fit"
+          >
+            <li class="hover:scale-[1.09] hover:transition-all">
+              <a href="/index.html">Home</a>
+            </li>
+            <li class="hover:scale-[1.09] hover:transition-all">
+              <a href="/about.html">About</a>
+            </li>
+            <li class="hover:scale-[1.09] hover:transition-all">
+              <a href="/services.html">Services</a>
+            </li>
+            <li class="hover:scale-[1.09] hover:transition-all">
+              <a href="/bookings.html">Bookings</a>
+            </li>
+          </ul>
+
+          <div
+            class="hidden justify-center content-center self-center space-x-2 md:flex"
+          >
+            <div
+              class="flex justify-center content-center bg-gray-200 rounded-[50%] w-[40px] h-[40px]"
+            >
+              <i class="fas fa-phone text-[#007B68] text-2xl self-center"></i>
+            </div>
+            <p class="text-lg mt-1 text-white">123-489-9381</p>
+          </div>
+        </div>
+      </nav>
+      <div class="h-[85%] flex flex-col justify-center items-center">
+        <h1 class="text-center text-6xl sm:text-9xl text-white font-myfont">
+          Book Now
+        </h1>
+        <p class="text-center text-3xl sm:text-4xl text-white">
+          Hurry up to book a room to enjoy best experience.
+        </p>
+
+        <a
+          class="btns px-11 py-3 bg-[#00917c] text-white rounded-3xl mt-5 hover:bg-[#196d60]"
+          href="/bookings.html"
+          >Book Now</a
+        >
+      </div>
+    </main>
+    <section>
+      <div class="main-section py-24">
+        <div class="flex justify-around lg:w-[90%] md:w-[60%] w-[95%]  md:mx-0 mx-auto md:flex-row flex-col  ">
+          <div class="first flex flex-col justify-center   ">
+            <div class="text-center text-2xl text-[#00917c]">
+              Date of Arrival
+            </div>
+            <input
+              class="border-[#00917c] shadow-lg text-[#00917c] px-16 md:py-1 py-2 border-2 rounded-full mt-2"
+              type="date"
+              name="date"
+              id="date"
+            />
+          </div>
+          <div class="second flex flex-col justify-center">
+            <div class="text-center text-2xl text-[#00917c]">
+              Date of Departure
+            </div>
+            <input
+              class="border-[#00917c] shadow-md text-[#00917c] px-16 md:py-1 py-2 border-2 rounded-full mt-2"
+              type="date"
+              name="date"
+              id="date"
+            />
+          </div>
+          <div class="third flex flex-col justify-center ">
+            <div class="text-center lg:text-2xl text-xl text-[#00917c]">
+              Num of Persons
+            </div>
+            <select
+              class="border-[#00917c] shadow-md text-[#00917c] md:ps-20 ps-24 pe-16 md:py-1 py-2 border-2 rounded-full mt-2"
+              name="num-of-persons"
+              id="num-of-persons"
+            >
+              <option value="1">1 Person</option>
+              <option value="2">2 Persons</option>
+              <option value="3">3 Persons</option>
+              <option value="4">4 Persons</option>
+              <option value="5">5 Persons</option>
+              <option value="6">6 Persons</option>
+              <option value="6+">6+ Persons</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+        <footer>
+      <div class="container-fluid pt-20 pb-5 text-white bg-[#00917c] mt-14">
+       <div class="cols-container container space-x-2 flex flex-col md:flex-row md:justify-around w-full mx-auto md:w-[80%]">
+
+        <div class="first-two-cols-container space-x-6 flex justify-around md:w-[50%] w-[60%] mx-auto">
+
+      <div class="first-col-container space-y-5">
+      <h1 class="md:text-4xl text-2xl">Services</h1>
+      <ul class="md:text-xl">
+        <li>Tour</li>
+        <li>Swiming</li>
+        <li>Surfing</li>
+        <li>Kayak</li>
+      </ul>
+      </div>
+
+      <div class="second-col-container space-y-5">
+      <h1 class="md:text-4xl text-2xl">Practice</h1>
+      <ul class="md:text-xl">
+        <li>Travel</li>
+        <li>Popular places</li>
+        <li>Destination</li>
+        <li>Tour</li>
+      </ul>
+      </div>
+      </div>
+
+      <div class="sm-container flex justify-center align-top mx-auto space-x-4 md:mt-0 mt-8">
+
+        <i class="fab fa-facebook text-blue-700 lg:text-5xl md:text-4xl text-2xl rounded-5"></i>
+        <i class="fab fa-instagram text-red-600 lg:text-5xl md:text-4xl text-2xl rounded-5"></i>
+        <i class="fab fa-twitter text-white lg:text-5xl md:text-4xl text-2xl rounded-5"></i>
+        <i class="fab fa-youtube text-red-700 lg:text-5xl md:text-4xl text-2xl rounded-5"></i>
+        <i class="fab fa-pinterest text-red-700 lg:text-5xl md:text-4xl text-2xl rounded-5"></i>
+      </div>
+
+      </div>
+
+<hr class="mt-20">
+<p class=" pt-4 text-center">Copyright ©2026 All rights reserved | Frontic</p>
+      </div>
+      
+    </footer>
+    
+  </body>
+</html>

@@ -7,6 +7,7 @@ export default defineConfig({
         main: 'index.html',
         about: 'about.html', 
         services: 'services.html',
+        bookings: 'bookings.html'
       }
     }
   }
